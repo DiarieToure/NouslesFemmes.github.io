@@ -27,29 +27,61 @@
                         <h1 class="text-center font-weigh-bold text-primary">S'inscrire</h1>
                         <hr class="my-3">
                         <form action="#" method="post" class="px-3" id="login-form">
-                            <div class="input-group input-group-lg">
-                                <div class="input-group-prepend">
-                                    <span class="input-group-text rounded-0 p-3">
-                                        <i class="far fa-envelope fa-lg"></i>
 
+                            <!-- email -->
+
+                            <div class="input-group input-group-lg form-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text rounded-0 ">
+                                        <i class="far fa-envelope fa-lg py-3"></i>
                                     </span>
                                 </div>
-                                <input type="email" placeholder="email" class="form-control rounded-0" required>
+                                <input type="email" placeholder="e-mail" class="form-control rounded-0" required>
                             </div>
                             <br>
 
                             <!-- passeword -->
-                            <div class="input-group input-group-lg">
+                            <div class="input-group input-group-lg form-group ">
                                 <div class="input-group-prepend">
-                                    <span class="input-group-text rounded-0 p-3 ">
-                                        <i class="fas fa-key fa-lg"></i>
+                                    <span class="input-group-text rounded-0 ">
+                                        <i class="fas fa-key fa-lg py-3"></i>
 
                                     </span>
                                 </div>
-                                <input type="password" name="pwd" placeholder="passeword" class="form-control rounded-0" required>
+                                <input type="password" name="pwd" placeholder="mot de passe" class="form-control rounded-0" required>
                             </div>
                         
+                            <!-- sign in -->
+                            <div class="form-group ">
+                                <div class="d-flex">
+
+                                    
+                                </div>
+                                <!-- remember me -->
+                                <div class="custom-control custom-checkbox float-left">
+                                    <input type="checkbox" name="remember" class="custom-checkbox" id="customCheck">
+                                    <label for="customCheck " class="customCheckLabel">Se souvenir de moi</label>
+                                </div>
+                                <br>
+                                <!-- forgot password -->
+                                <div class="forgot float-right">
+                                    <a href="#" class="forgot-link">Mot de passe oublié ?</a>
+                                </div>
+                                <br>
+                                <div class="form-group">
+                                    <input type="submit" value="Se connecter" id="login-btn" class="btn btn-primary btn-lg btn-block myBtn w-100" >
+                                </div>
+
+                            </div>
+
                         </form>
+
+                    </div>
+                    <div class="card d-flex justity-content-center p-4 fs-3">
+                        <h1 class="text-center">Bonjour ! </h1>
+                        <hr>
+                        <p class="text-center">Bienvenue sur la plateforme de <br> <span class="text-danger fs-3 fw-bold">Nous les femmes !</span></p>
+                        <button class="btn btn-outline-light btn-lg align-self-center btn btn-primary">S'inscrire</button>
                     </div>
 
                 </div>
