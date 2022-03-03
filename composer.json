@@ -1,0 +1,14 @@
+{
+    "name": "diarie/sitepoo",
+    "autoload": {
+        "psr-4": {
+            "Diarie\\Sitepoo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Diarie"
+        }
+    ],
+    "require": {}
+}
